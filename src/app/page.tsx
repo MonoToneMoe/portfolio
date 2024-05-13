@@ -136,7 +136,7 @@ export default function Home() {
                     <h1 className='text-gray-400 hover:text-blue-600 hover:underline text-3xl'>Github</h1>
                     <div></div>
                   </Link>
-                  <Link className='flex items-center gap-4 justify-between md:justify-start' target='_blank' href={"https://github.com/MonoToneMoe"}>
+                  <Link className='flex items-center gap-4 justify-between md:justify-start' target='_blank' href={"https://linkedin.com/in/georgerhaddad"}>
                     <FaLinkedin />
                     <h1 className='text-gray-400 hover:text-blue-600 hover:underline text-3xl'>LinkedIn</h1>
                     <div></div>
