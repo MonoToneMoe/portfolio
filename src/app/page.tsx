@@ -129,7 +129,7 @@ export default function Home() {
             </div>
             <div className='w-full mt-4 flex flex-col items-center md:items-start'>
               <header className='text-white text-center md:text-left text-xl lg:text-2xl 2xl:text-4xl mb-2 lg:mb-8'>My Contacts</header>
-              <div className='hidden 2xl:grid grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-96 md:w-auto px-8 md:px-0'>
+              <div className='hidden 2xl:grid grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-96 md:w-auto px-8 md:px-0 fadeIn'>
                 <IconContext.Provider value={{ size: '40', color: '#9CA3AF' }}>
                   <Link className='flex items-center gap-4 justify-between md:justify-start' target='_blank' href={"https://github.com/MonoToneMoe"}>
                     <FaGithub />
