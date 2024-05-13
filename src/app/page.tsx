@@ -127,9 +127,9 @@ export default function Home() {
             <div className='flex flex-col items-center justify-center xl:pr-32 w-72 md:w-auto xl:mt-8 mt-4 opacity-0 fadeIn'>
               <p className='text-white xl:text-2xl md:text-lg'>As a recent high school graduate, I discovered my passion for coding at CodeStack Academy.  Fueled by curiosity, I'm driven to explore the ever-evolving tech landscape, pushing boundaries and transforming ideas into realities.</p>
             </div>
-            <div className='w-full mt-4 flex flex-col items-center md:items-start'>
+            <div className='w-full mt-4 flex flex-col items-center md:items-start opacity-0 fadeIn'>
               <header className='text-white text-center md:text-left text-xl lg:text-2xl 2xl:text-4xl mb-2 lg:mb-8'>My Contacts</header>
-              <div className='hidden 2xl:grid grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-96 md:w-auto px-8 md:px-0 opacity-0 fadeIn'>
+              <div className='hidden 2xl:grid grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-96 md:w-auto px-8 md:px-0'>
                 <IconContext.Provider value={{ size: '40', color: '#9CA3AF' }}>
                   <Link className='flex items-center gap-4 justify-between md:justify-start' target='_blank' href={"https://github.com/MonoToneMoe"}>
                     <FaGithub />
@@ -148,7 +148,7 @@ export default function Home() {
                   </Link>
                 </IconContext.Provider>
               </div>
-              <div className='grid 2xl:hidden grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-72 sm:w-auto opacity-0 fadeIn'>
+              <div className='grid 2xl:hidden grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-72 sm:w-auto'>
                 <IconContext.Provider value={{ size: '25', color: '#9CA3AF' }}>
                   <Link className='flex items-center gap-4 justify-between md:justify-start' target='_blank' href={"https://github.com/MonoToneMoe"}>
                     <FaGithub />
