@@ -148,7 +148,7 @@ export default function Home() {
                   </Link>
                 </IconContext.Provider>
               </div>
-              <div className='grid 2xl:hidden grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-72 sm:w-auto'>
+              <div className='grid 2xl:hidden grid-cols-1 md:grid-cols-2 gap-y-4 lg:gap-8 w-72 sm:w-auto fadeIn'>
                 <IconContext.Provider value={{ size: '25', color: '#9CA3AF' }}>
                   <Link className='flex items-center gap-4 justify-between md:justify-start' target='_blank' href={"https://github.com/MonoToneMoe"}>
                     <FaGithub />
