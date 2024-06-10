@@ -35,6 +35,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 
 import CardComponent from '@/Components/CardComponent';
+import ContactFormComponent from '@/Components/ContactFormComponent';
 
 
 export default function Home() {
@@ -117,7 +118,7 @@ export default function Home() {
 
         <section className='md:h-fit gap-4 md:px-4 xl:px-0 xl:h-screen pt-20 md:pt-28 flex columns-2 flex-col md:flex-row' id='home'>
           <div className='md:h-full px-8 sm:px-0 md:w-5/12 w-full flex justify-center xl:items-start items-center md:items-start'>
-            <Image className='xl:h-[80%] md:h-[50%] lg:h-[60] md:w-auto object-cover slideRight rounded-3xl border-solid border-gray-400 border-2' width={1080} height={1920} src={"/me.jpg"} alt='' />
+            <Image className='xl:h-[80%] md:h-[50%] lg:h-[60] md:w-auto object-cover slideRight rounded-3xl border-solid border-gray-400 border-2' width={1080} height={1920} src={"/me.jpg"} alt='' priority />
           </div>
           <div className='flex flex-col items-center justify-start md:items-start w-full mt-6 md:mt-0 md:w-7/12 md:h-[80%]'>
             <div className=''>
@@ -339,7 +340,15 @@ export default function Home() {
           </div>
         </section>
 
+        <section className='flex justify-center items-center md:h-screen pt-28' id='contact'>
+          <ContactFormComponent />
+        </section>
+
       </main>
+
+      <footer>
+        
+      </footer>
     </div>
   );
 }
