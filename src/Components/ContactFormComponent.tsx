@@ -12,6 +12,10 @@ const ContactFormComponent = () => {
     console.log(name, email, message);
   }, [name, email, message]);
 
+  console.log('Service ID:', process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
+  console.log('Template ID:', process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
+  console.log('Public Key:', process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
